@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int ID = 141;
+        int password = 141;
+        printf("Plese Enter Your ID:\n ");
+        scanf("%d", & ID);
+        switch (ID) {
+            case 141:
+                printf("Enter your password:\n ");
+                scanf("%d", & password);
+                switch (password) {
+                    case 141:
+                        printf("ELAB LOGIN SUCCESSFUL\n");
+                        break;
+                    default:
+                        printf("incorrect password");
+                        break;
+                }
+                break;
+            default:
+                printf("incorrect ID");
+                break;
+        }
+
+    return 0;
+}
